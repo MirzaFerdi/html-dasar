@@ -9,7 +9,8 @@ body {
 }
 
 .list,
-.tabel {
+.tabel,
+.form {
     padding: 15px;
     margin: 15px;
 }
