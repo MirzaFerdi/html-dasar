@@ -15,55 +15,12 @@ body {
     margin: 15px;
 }
 
-.artikel {
-    padding: 15px;
-    margin: 15px;
-    line-height: 28px;
-    margin: 3% 20% 3% 20%;
-}
-
-.artikel p {
-    float: left;
-    padding-top: 4px;
-    padding-right: 8px;
-    padding-left: 3px;
-}
-
-.list ul {
-    column-count: 3;
-}
-
-.artikel ul {
-    line-height: 28px;
-    float: left;
-
-}
-
 p,
 li {
     font-size: 17px;
 }
 
-table{
-    border: solid 1px #000000;
-    border-collapse: collapse;
-    border-spacing: 0;
-    font: normal 13px Arial, sans-serif;
-}
-table thead th{
-    background-color: #030303;
-    border: solid 1px #000000;
-    color: #ffffff;
-    padding: 10px;
-    text-align: left;
-
-}
-table tbody td{
-    border: solid 1px #000000;
-    color: #000000;
-    padding: 10px;
-
-}
+/* Style Navbar */
 .navbar ul {
     list-style-type: none;
     margin: 0;
@@ -90,10 +47,61 @@ table tbody td{
 
 }
 
+/* Style Artikel */
+.artikel {
+    padding: 15px;
+    margin: 15px;
+    line-height: 28px;
+    margin: 3% 20% 3% 20%;
+}
+
+.artikel p {
+    float: left;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+.artikel ul {
+    line-height: 28px;
+    float: left;
+
+}
+
 .artikel {
     text-align: justify;
 }
 
+.list ul {
+    column-count: 3;
+}
+
+
+/* Style Tabel */
+table {
+    border: solid 1px #000000;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+
+table thead th {
+    background-color: #030303;
+    border: solid 1px #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+
+}
+
+table tbody td {
+    border: solid 1px #000000;
+    color: #000000;
+    padding: 10px;
+
+}
+
+/* Style Footer */
 .footer {
     padding: 3px;
     background: #1d1c1c;
