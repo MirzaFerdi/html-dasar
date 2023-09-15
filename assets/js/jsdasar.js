@@ -137,8 +137,8 @@ console.log(!f);//false
 
 
 //Bitwise Operator
-let biner1 = 00111100;
-let biner2 = 00001101;
+let biner1 = '0o111100';
+let biner2 = '0o1101';
 console.log(biner1 & biner2)
 console.log(biner1 | biner2)
 console.log(biner1 ^ biner2)

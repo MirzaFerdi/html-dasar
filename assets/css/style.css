@@ -106,17 +106,33 @@ table tbody td {
 }
 
 /* Style Product */
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 15px;
+  margin: 15px;
+  gap: 25px;
+  justify-content: space-around;
+  align-content: center;
+  
+}
+
 .card {
   background: var(--kartu);
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 1px;
-  height: 350px;
-  max-height: 350px;
-  max-width: 300px;
+  height: 100%;
+  max-width: 100%;
   margin: auto;
+  margin-top: 20px;
   text-align: center;
   font-family: arial;
   border-radius: 15px;
+  transition: .3s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.1);
 }
 
 .card b{
@@ -128,16 +144,6 @@ table tbody td {
   font-size: 17px;
 }
 
-.row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 15px;
-  margin: 15px;
-  gap: 25px;
-
-  justify-content: space-around;
-  align-content: center;
-}
 
 /* Style Carousel */
 .slider-wrapper {
@@ -179,13 +185,13 @@ table tbody td {
 #slide-arrow-prev {
   left: 0;
   padding-left: 15px;
-  border-radius: 100;
+  border-radius: 0px 15px 15px 0px;
 }
 
 #slide-arrow-next {
   right: 0;
   padding-left: 15px;
-  border-radius: 100;
+  border-radius: 15px 0px 0px 15px;
 }
 
 .slide {
