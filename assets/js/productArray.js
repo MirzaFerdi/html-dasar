@@ -1,13 +1,13 @@
 let keyboard = [
   (kb1 = {
-    nama: "Logitect K1 Keyboard",
+    nama: "Logitech K1 Keyboard",
     img: "../assets/img/product/k1.png",
     width: "width: 50%",
     price: "Rp. 500.000,00",
     desc: "Keyboard Logitech K1 menawarkan kombinasi sempurna antara kualitas, kenyamanan, dan keandalan. Didesain dengan ergonomi yang baik.",
   }),
   (kb2 = {
-    nama: "Logitect K2 Keyboard",
+    nama: "Logitech K2 Keyboard",
     img: "../assets/img/product/k2.png",
     width: "width: 60%",
     price: "Rp. 850.000,00",
@@ -21,7 +21,7 @@ let keyboard = [
     desc: "Keyboard Fantech A3 menawarkan kombinasi sempurna antara kualitas, kenyamanan, dan keandalan. Didesain dengan ergonomi yang baik.",
   }),
   (kb4 = {
-    nama: "Logitect Ao4 Keyboard",
+    nama: "Logitech Ao4 Keyboard",
     img: "../assets/img/product/k4.png",
     width: "width: 60%",
     price: "Rp. 325.000,00",
@@ -59,7 +59,7 @@ let headset = [
     desc: "Headset Razer R4 Headset menawarkan kualitas suara yang luar biasa dan kenyamanan maksimal. Didesain dengan desain yang stylish dan ergonomis.",
   }),
 ];
-monitor = [
+let monitor = [
   (mt1 = {
     nama: "Asus 20BJ 24' Monitor",
     img: "../assets/img/product/l1.png",
@@ -89,7 +89,7 @@ monitor = [
     desc: "Monitor Samsung IP2S menawarkan kualitas gambar yang tajam dan warna yang akurat. Didesain dengan layar yang luas dan resolusi tinggi.",
   }),
 ];
-mouse = [
+let mouse = [
   (mt1 = {
     nama: "Razer M24 Mouse",
     img: "../assets/img/product/m1.png",
@@ -225,3 +225,22 @@ mouse.forEach(function (isiKartu) {
 
 const kartuProduk = document.querySelector(".row");
 kartuProduk.innerHTML = source;
+
+
+
+
+
+
+
+// Fungsi Dropdown
+function dropDown() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
