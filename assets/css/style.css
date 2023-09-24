@@ -44,10 +44,11 @@ li {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  float: right;
 }
 
 .dropdown {
-  float: left;
+  /* float: left; */
   overflow: hidden;
 }
 
