@@ -22,7 +22,7 @@ body{
     gap: 10px;
     width: 60%;
     max-width: 650px;
-    max-height: 550px;
+    max-height: 650px;
     border-radius: 10px;
     background-color: transparent;
     backdrop-filter: blur(16px);
@@ -85,7 +85,7 @@ label{
         flex-direction: column;
         width: 80%;
         max-width: 400px;
-        max-height: 600px;
+        max-height: 650px;
     }
     video{
         width: 300px;
